@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" >
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JungminMah</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+       
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <!-- font awsome CDN link for icons 
+    ================================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <style>
+        .envelope i {
+            color: white;
+        }
+        .bold-white {
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+
+    <!-- TypeIt
+    =================================================== -->
+    <script src="https://unpkg.com/typeit@8.8.4/dist/index.umd.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            new TypeIt("#type-effect", {
+                speed: 100,
+                loop: true,
+            }).type("You can also call me Jasmine")
+            .pause(500)
+            .delete()
+            .type("Mechanical Engineering")
+            .pause(500)
+            .delete()
+            .type("Bio-Medical Engineering")
+            .pause(500)
+            .go();
+        });
+    </script>
+    
+    <!-- google maps
+    =================================================== 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href="styles.css"> -->
+
+    <!-- RSS and SEO
+    ================================================== 
+    <link rel="alternate" type="application/rss+xml"  href="https://minalee-research.github.io/feed.xml" title="Mina Lee - Writing with AI"> -->
+
+    <!-- Begin Jekyll SEO tag v2.8.0
+<title>Home | Mina Lee - Writing with AI</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Home" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I am an assistant professor in Computer Science, Data Science Institute, and Cognitive Science (affiliated) at the University of Chicago. Previously, I was a postdoctoral researcher in the Computational Social Science group at Microsoft Research. I received my Ph.D. in Computer Science from Stanford University, where I was fortunate to be advised by Percy Liang. Before that, I was an undergraduate at Korea University." />
+<meta property="og:description" content="I am an assistant professor in Computer Science, Data Science Institute, and Cognitive Science (affiliated) at the University of Chicago. Previously, I was a postdoctoral researcher in the Computational Social Science group at Microsoft Research. I received my Ph.D. in Computer Science from Stanford University, where I was fortunate to be advised by Percy Liang. Before that, I was an undergraduate at Korea University." />
+<link rel="canonical" href="https://minalee-research.github.io/" />
+<meta property="og:url" content="https://minalee-research.github.io/" />
+<meta property="og:site_name" content="Mina Lee - Writing with AI" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Home" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"I am an assistant professor in Computer Science, Data Science Institute, and Cognitive Science (affiliated) at the University of Chicago. Previously, I was a postdoctoral researcher in the Computational Social Science group at Microsoft Research. I received my Ph.D. in Computer Science from Stanford University, where I was fortunate to be advised by Percy Liang. Before that, I was an undergraduate at Korea University.","headline":"Home","name":"Mina Lee - Writing with AI","url":"https://minalee-research.github.io/"}</script>
+<!-- End Jekyll SEO tag -->
+    
+</head>
+
+
+<body id="top">
+
+  
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap">
+
+
+        <!-- # site header 
+        ================================================== -->
+        <header class="s-header sticky offset scrolling"> <!-- Disable ssMoveHeader and add sticky offset scrolling-->
+            <div class="row s-header__inner">
+
+                <div class="s-header__block">
+                   <!-- <div class="s-header__logo">
+                        <a class="logo" href="index.html">
+                            <img src="images/logo.svg" alt="Homepage">
+                        </a>
+                    </div> -->
+
+                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+                </div> <!-- end s-header__block -->
+
+                <nav class="s-header__nav">    
+                    <ul class="s-header__menu-links">
+                        <li class="current"><a class="smoothscroll" href="#intro">Intro</a></li>
+                        <li><a class="smoothscroll" href="#about">About</a></li>
+                        <li><a class="smoothscroll" href="#works">Works</a></li>
+                        <li><a class="smoothscroll" href="#footer">Contact</a></li>
+                    </ul> <!-- s-header__menu-links -->    
+                </nav> <!-- end s-header__nav -->
+
+            </div> <!-- end s-header__inner -->
+        </header> <!-- end s-header -->
+
+
+        <!-- # intro
+        ================================================== -->
+        <section id="intro" class="s-intro target-section">
+
+            <div class="row s-intro__content width-sixteen-col">
+                <div class="column lg-12 s-intro__content-inner grid-block grid-16">
+                    
+                    <div class="s-intro__content-text">
+                        <div class="s-intro__content-pretitle text-pretitle">
+                            <span id="type-effect"></span>
+                        </div> <br>
+                        <!-- <div class="s-intro__content-pretitle text-pretitle">Hello</div> -->
+                        
+                        <h1 class="s-intro__content-title">
+                            I'm Jungmin Mah <br>
+                            a Biomedical engineering <br>
+                            researcher.
+                        </h1>                            
+
+                        <div class="s-intro__content-btns">
+                            <a class="smoothscroll btn" href="#about">More About Me</a>
+                            <a class="smoothscroll btn btn--stroke" href="#footer">Contact</a>
+                       </div> <!-- s-intro__content-btns -->   
+
+                    </div> <!-- s-intro__content-text -->                     
+                    
+                </div> <!-- s-intro__content-inner -->  
+            </div> <!-- s-intro__content -->
+
+            <ul class="s-intro__social social-list">
+                <!-- Email -->
+                <li>
+                    <a href="mailto:jeongminmah@gmail.com" target="_blank">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span class="u-screen-reader-text">Email</span>
+                    </a>
+                </li>               
+            <!-- <li>
+                    <a href="#0">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M11.99 2C6.472 2 2 6.473 2 11.99c0 4.232 2.633 7.85 6.35 9.306-.088-.79-.166-2.006.034-2.868.182-.78 1.172-4.966 1.172-4.966s-.299-.599-.299-1.484c0-1.388.805-2.425 1.808-2.425.853 0 1.264.64 1.264 1.407 0 .858-.546 2.139-.827 3.327-.235.994.499 1.805 1.479 1.805 1.775 0 3.141-1.872 3.141-4.575 0-2.392-1.719-4.064-4.173-4.064-2.843 0-4.512 2.132-4.512 4.335 0 .858.331 1.779.744 2.28a.3.3 0 0 1 .069.286c-.076.315-.245.994-.277 1.133-.044.183-.145.222-.335.134-1.247-.581-2.027-2.405-2.027-3.871 0-3.151 2.289-6.045 6.601-6.045 3.466 0 6.159 2.469 6.159 5.77 0 3.444-2.171 6.213-5.184 6.213-1.013 0-1.964-.525-2.29-1.146l-.623 2.374c-.225.868-.834 1.956-1.241 2.62a10 10 0 0 0 2.958.445c5.517 0 9.99-4.473 9.99-9.99S17.507 2 11.99 2"></path></svg>
+                        <span class="u-screen-reader-text">Pinterest</span>
+                    </a>
+                </li> -->
+            </ul> <!-- end s-intro__social -->
+
+            <div class="s-intro__content-media">                               
+                <img src="https://JungminMah.github.io/images/intro-mjm-low.jpg" alt="">
+            </div> <!-- s-intro__content-media -->                
+
+            <div class="s-intro__btn-download">
+                <a class="btn btn--stroke" href="#0" target="_blank">CV</a>
+            </div> <!-- end s-intro__btn-download -->
+            
+            <div class="s-intro__scroll-down">
+                <a href="#about" class="smoothscroll">
+                    <div class="scroll-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M11.178 19.569a.998.998 0 0 0 1.644 0l9-13A.999.999 0 0 0 21 5H3a1.002 1.002 0 0 0-.822 1.569l9 13z"></path></svg>
+                    </div>
+                    <span class="scroll-text u-screen-reader-text">Scroll Down</span>
+                </a>
+            </div> <!-- s-intro__scroll-down -->
+
+        </section> <!-- end s-intro -->
+
+
+        <!-- # about
+        ================================================== -->
+        <section id="about" class="s-about target-section">
+
+            <div class="row s-about__content">
+                <div class="column xl-12">    
+                    
+                    <div class="section-header" data-num="01">
+                        <h2 class="text-display-title">About Me.</h2>
+                    </div> <!-- end section-header -->
+
+                    <!-- <p class="attention-getter"> -->
+                    <P>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas explicabo id debitis cupiditate cumque, error quia! Debitis cupiditate ipsa nihil labore, earum atque dolor quos saepe vero inventore, odit nam deleniti accusantium omnis mollitia consequatur harum incidunt! Ex modi aut repudiandae doloremque commodi recusandae labore sit. Perspiciatis omnis dolor dolores fuga iusto, recusandae animi nisi consequuntur exercitationem id maxime earum pariatur voluptas! Porro non quos quae tempora fuga quis sequi minus sed sint debitis reiciendis, nostrum natus suscipit iusto odio.
+                    </p>
+                    
+                    <!-- <p class="attention-getter"> -->
+                    <P>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit. Ut enim ad minim     
+                    </p>
+
+                    <div class="grid-list-items s-about__blocks">
+
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Research Experience</h4>
+                            <ul class="s-about__list">
+                                <li>
+                                    Osstem Implant Co., Ltd.
+                                    <span>Research Assistant, Implant R&D Center, Implant Development Team</span>
+                                </li>
+                                <li>
+                                    Korea Institute of Science and Technology
+                                    <span>Research Assistant, Bionics Research Center</span>
+                                </li>                                
+                            </ul>
+                        </div> <!--end s-about__block -->
+
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Education</h4>
+                            <ul class="s-about__list">
+                                <li>
+                                    University of Science and Technology
+                                    <span>M.S. Biomedical Engineering</span>
+                                </li>
+                                <li>
+                                    Kyung Hee University
+                                    <span>B.S. Mechanical Engineering</span>
+                                </li>                                 
+                                <li>
+                                    San Diego State University
+                                    <span>Overseas Training Program</span>
+                                </li> 
+                            </ul>
+                        </div> <!--end s-about__block -->
+
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Awards</h4>
+
+                            <ul class="s-about__list">
+                                <li>
+                                    <a href="#0">
+                                        Best Oral Presentation Award
+                                        <span>Micro/Nano Division, Korean Society of Mechanical Engineers (KSME)</span>
+                                    </a>                                        
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        Best Research paper Award
+                                        <span>Korea Institute of Science and Technology (KIST)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        Young Investigator Award
+                                        <span>Woman in Science, Engineering, and Technology (WISET) & KSME</span>
+                                    </a>
+                                </li>                              
+                            </ul>
+                        </div> <!--end s-about__block -->
+                        
+                       <!-- <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Skills</h4>
+
+                            <ul class="s-about__list">
+                                <li>
+                                    Product Design
+                                </li>
+                                <li>
+                                    UI/UX Design
+                                </li>
+                                <li>
+                                    Prototyping
+                                </li>
+                                <li>
+                                    Frontend Development
+                                </li>
+                                <li>
+                                    Illustration
+                                </li>
+                                <li>
+                                    Visual Design
+                                </li>
+                            </ul>
+                        </div> <!--end s-about__block -->
+
+                    </div> <!-- grid-list-items -->
+
+                </div> <!--end column -->
+            </div> <!--end s-about__content -->
+            
+        </section> <!-- end s-about -->   
+
+
+
+        <!-- # works
+        ================================================== -->
+        <section id="works" class="s-works target-section">
+
+            <div class="row">
+                <div class="column xl-12">
+                    <div class="section-header" data-num="02">
+                        <h2 class="text-display-title">Selected Works.</h2>
+                    </div> <!-- end section-header -->
+                </div>
+            </div>
+
+            <div class="row folio-entries">
+
+                <div class="column entry">
+                    <a href="images/folio/gallery/g-turban.jpg" class="entry__link glightbox" data-glightbox="title: White Knit Cap; description: .entry__desc-01">
+                        <div class="entry__thumb">
+                            <img src="images/folio/white_turban.jpg" srcset="images/folio/white_turban.jpg 1x, images/folio/white_turban@2x.jpg 2x" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">White Knit Cap</h4>
+                            <div class="entry__cat">Frontend Design</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-01">
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Inventore ipsum iste soluta fugiat, impedit illum ducimus 
+                        deleniti facilis ab, tempora non! Nisi, tempora provident.
+                        <a href="https://www.behance.net/">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+                <div class="column entry">
+                    <a href="images/folio/gallery/g-woodcraft.jpg" class="entry__link glightbox" data-glightbox="title: WoodCraft; description: .entry__desc-02">
+                        <div class="entry__thumb">
+                            <img src="images/folio/woodcraft.jpg" srcset="images/folio/woodcraft.jpg 1x, images/folio/woodcraft@2x.jpg 2x" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">WoodCraft</h4>
+                            <div class="entry__cat">Product Design</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-02">
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Inventore ipsum iste soluta fugiat, impedit illum ducimus 
+                        deleniti facilis ab, tempora non! Nisi, tempora provident.
+                        <a href="https://www.behance.net/">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+                <div class="column entry">
+                    <a href="images/folio/gallery/g-tulips.jpg" class="entry__link glightbox" data-glightbox="title: Caffeine & Tulips; description: .entry__desc-03">
+                        <div class="entry__thumb">
+                            <img src="images/folio/caffeine_and_tulips.jpg" srcset="images/folio/caffeine_and_tulips.jpg 1x, images/folio/caffeine_and_tulips@2x.jpg 2x" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">Caffeine & Tulips</h4>
+                            <div class="entry__cat">Brand Identity</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-03">
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Inventore ipsum iste soluta fugiat, impedit illum ducimus 
+                        deleniti facilis ab, tempora non! Nisi, tempora provident.
+                        <a href="https://www.behance.net/">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+                <div class="column entry">
+                    <a href="images/folio/gallery/g-grayscale.jpg" class="entry__link glightbox" data-glightbox="title: Grayscale; description: .entry__desc-04">
+                        <div class="entry__thumb">
+                            <img src="images/folio/grayscale.jpg" srcset="images/folio/grayscale.jpg 1x, images/folio/grayscale@2x.jpg 2x" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">Grayscale</h4>
+                            <div class="entry__cat">Product Design</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-04">
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Inventore ipsum iste soluta fugiat, impedit illum ducimus 
+                        deleniti facilis ab, tempora non! Nisi, tempora provident.
+                        <a href="https://www.behance.net/">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+                <div class="column entry">
+                    <a href="images/folio/gallery/g-lamp.jpg" class="entry__link glightbox" data-glightbox="title: The Lamp; description: .entry__desc-05">
+                        <div class="entry__thumb">
+                            <img src="images/folio/lamp.jpg" srcset="images/folio/lamp.jpg 1x, images/folio/lamp@2x.jpg 2x" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">The Lamp</h4>
+                            <div class="entry__cat">Brand Identity</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-05">
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Inventore ipsum iste soluta fugiat, impedit illum ducimus 
+                        deleniti facilis ab, tempora non! Nisi, tempora provident.
+                        <a href="https://www.behance.net/">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+                <div class="column entry">
+                    <a href="images/folio/gallery/g-tropical.jpg" class="entry__link glightbox" data-glightbox="title: Tropical; description: .entry__desc-06">
+                        <div class="entry__thumb">
+                            <img src="images/folio/tropical.jpg" srcset="images/folio/tropical.jpg 1x, images/folio/tropical@2x.jpg 2x" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">Tropical</h4>
+                            <div class="entry__cat">Frontend Design</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-06">
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Inventore ipsum iste soluta fugiat, impedit illum ducimus 
+                        deleniti facilis ab, tempora non! Nisi, tempora provident.
+                        <a href="https://www.behance.net/">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry --> 
+
+            </div> <!-- folio entries -->
+
+
+            <div class="row s-testimonials">
+                <div class="column xl-12">
+
+                    <h3 class="s-testimonials__header">Hear it from My Happy Clients</h3>
+    
+                    <div class="swiper-container s-testimonials__slider">
+    
+                        <div class="swiper-wrapper">
+
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="s-testimonials__author">
+                                    <img src="images/avatars/user-02.jpg" alt="Author image" class="s-testimonials__avatar">
+                                    <cite class="s-testimonials__cite">
+                                        <strong>John Rockefeller</strong>
+                                        <span>Standard Oil Co.</span>
+                                    </cite>
+                                </div>
+                                <p>
+                                Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
+                                Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. Nisi dolores quaerat fuga rem nihil nostrum.
+                                Laudantium quia consequatur molestias.
+                                </p>
+                            </div> <!-- end s-testimonials__slide -->
+            
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="s-testimonials__author">
+                                    <img src="images/avatars/user-03.jpg" alt="Author image" class="s-testimonials__avatar">
+                                    <cite class="s-testimonials__cite">
+                                        <strong>Andrew Carnegie</strong>
+                                        <span>Carnegie Steel Co.</span>
+                                    </cite>
+                                </div>
+                                <p>
+                                Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
+                                Nisi eaque consequatur. Voluptatem dignissimos ut ducimus accusantium perspiciatis.
+                                Quasi voluptas eius distinctio. Atque eos maxime.
+                                </p>
+                            </div> <!-- end s-testimonials__slide -->
+            
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="s-testimonials__author">
+                                    <img src="images/avatars/user-01.jpg" alt="Author image" class="s-testimonials__avatar">
+                                    <cite class="s-testimonials__cite">
+                                        <strong>John Morgan</strong>
+                                        <span>JP Morgan & Co.</span>
+                                    </cite>
+                                </div>
+                                <p>
+                                Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
+                                Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.
+                                Voluptatem dignissimos ut.
+                                </p>
+                            </div> <!-- end s-testimonials__slide -->
+    
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="s-testimonials__author">
+                                    <img src="images/avatars/user-06.jpg" alt="Author image" class="s-testimonials__avatar">
+                                    <cite class="s-testimonials__cite">
+                                        <strong>Henry Ford</strong>
+                                        <span>Ford Motor Co.</span>
+                                    </cite>
+                                </div>
+                                <p>
+                                Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc ac augue. Fusce vel dui. In ac felis 
+                                quis tortor malesuada pretium. Curabitur vestibulum aliquam leo. Qui sed at corrupti expedita voluptas odit. 
+                                Nihil ea quia nesciunt. Ducimus aut sed ipsam.
+                                </p>
+                            </div> <!-- end s-testimonials__slide -->
+        
+                        </div> <!-- end swiper-wrapper -->
+    
+                        <div class="swiper-pagination"></div>
+    
+                    </div> <!-- end swiper-container -->
+    
+                </div> <!-- end column -->
+            </div> <!-- end s-testimonials -->
+
+        </section> <!-- end s-works --> 
+
+
+        <!-- # numbers
+        ==================================================
+        <section id="numbers" class="s-numbers">
+
+            <div class="row counter-items">
+
+                <div class="column counter-items__item">
+                    <div class="num">
+                        80
+                        <span>+</span>
+                    </div>
+                    <h5>Happy Customers</h5>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Vel harum magni quae voluptate error quo repellendus inventore 
+                    laborum ex veniam. 
+                    </p>
+                </div> <!-- end counter-items__item -->
+
+               <!-- <div class="column counter-items__item">
+                    <div class="num">
+                        120
+                        <span>+</span>
+                    </div>
+                    <h5>Projects Completed</h5>
+                    <p>
+                    Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc ac augue. 
+                    Fusce vel dui. In ac felis 
+                    quis tortor malesuada pretium
+                    </p>
+                </div> <!-- end counter-items__item -->
+
+               <!-- <div class="column counter-items__item">
+                    <div class="num">
+                        23k
+                        <span>+</span>
+                    </div>
+                    <h5>Lines of Code</h5>
+                    <p>
+                    Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
+                    Nisi eaque consequatur. Voluptatem dignissimos ut ducimus
+                    </p>
+                </div> <!-- end counter-items__item -->
+
+              <!--  <div class="column counter-items__item">
+                    <div class="num">
+                        85
+                        <span>+</span>
+                    </div>
+                    <h5>Positive Feedback</h5>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel harum magni quae voluptate error 
+                    quo repellendus inventore laborum ex veniam.
+                    </p>
+                </div> <!-- end counter-items__item -->
+
+          <!--  </div>  <!-- end counter-items -->
+
+      <!--  </section> <!-- end s-numbers -->
+
+
+        <!-- # footer 
+        ================================================== -->
+        <footer id="footer" class="s-footer target-section">
+
+            <div class="row">
+                <div class="column lg-12">
+                    <div class="section-header light-on-dark">
+                        <h2 class="text-display-title">Contact</h2>
+                    </div> <!-- end section-header -->
+                </div>
+            </div>
+
+            <div class="row s-footer__content">
+                
+                <div class="column xl-6 md-12 s-footer__block s-footer__about">                    
+                    <!-- <p class="attention-getter"> -->
+                    <P>
+                    If you are interested in me, please feel free to get in touch!
+                    </p> 
+                    <!-- <a class="btn btn--primary" href="mailto:jeongminmah@gmail.com">Send me an Email</a> -->
+                </div> <!-- end section-footer__about -->
+
+                <div class="column xl-6 md-12 s-footer__block s-footer__site-links">
+                    <div class="row">
+                       <div class="column xl-4 lg-5 md-6 tab-12">
+                            <h5>Email</h5>
+                            <ul class="link-list">
+                                <li><a href="mailto:jeongminmah@gmail.com">jeongminmah@gmail.com</a></li>
+                            </ul> 
+                        </div>                     
+                            <div class="column xl-6 md-6 tab-12"> 
+                                <h5>Location</h5>
+                                <ul class="link-list">
+                                    <li><a href="https://www.google.com/maps/place/Mapo-gu,+Seoul,+South+Korea" target="_blank">Mapo-gu, Seoul, South Korea</a></li>
+                           <!-- <ul class="link-list">
+                                <li><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50603.09790440446!2d126.86719758587424!3d37.562281591873074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c99206b2e6821%3A0xc2eb5359fa1f1d05!2z7ISc7Jq47Yq567OE7IucIOuniO2PrOq1rA!5e0!3m2!1sko!2skr!4v1730226070472!5m2!1sko!2skr">Mapo-gu, Seoul, South Korea</a></li>
+                                    <!-- Google Maps Embed Code -->
+                                  <!--  <iframe 
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50603.09790440446!2d126.86719758587424!3d37.562281591873074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c99206b2e6821%3A0xc2eb5359fa1f1d05!2z7ISc7Jq47Yq567OE7IucIOuniO2PrOq1rA!5e0!3m2!1sko!2skr!4v1730226070472!5m2!1sko!2skr" 
+                                        width="200" 
+                                        height="150" 
+                                        style="border:0;" 
+                                        allowfullscreen="" 
+                                        loading="lazy" 
+                                        referrerpolicy="no-referrer-when-downgrade">                                        
+                                    </iframe>   -->  
+                                </ul>
+                        </div>     <!-- Location End -->                   
+                    </div>                    
+                </div> <!-- end section-footer__site-links -->
+
+            </div> <!-- end section-footer__content -->
+
+
+        <!-- <div class="row s-footer__buttons">               
+            <!-- <div class="column xl-6 tab-12">
+                    <a href="mailto:jeongminmah@gmail.com" class="btn btn--primary btn--large u-fullwidth">Email</a>
+                </div> -->
+          
+            <!-- <div class="column xl-6 tab-12">                    
+                    <a href="#0" class="btn btn--stroke btn--large u-fullwidth">Get My CV</a>
+                </div> -->
+           <!-- </div> --> <!-- end section-footer__buttons -->              
+            
+            <div class="row s-footer__bottom">
+                
+                <div class="column xl-2 md-12">
+                    <ul class="s-footer__social social-list">
+                        <!-- Email -->
+                        <li>
+                            <a href="mailto:jeongminmah@gmail.com" target="_blank">
+                                <i class="fa-solid fa-envelope"></i>
+                                <span class="u-screen-reader-text">Email</span>
+                             </a>                           
+                        </li>
+                       <!-- <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809 c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793 c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05 c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032 c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028 c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22 c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z"></path></svg>
+                                <span class="u-screen-reader-text">Twitter</span>
+                            </a>
+                        </li> -->      
+                        
+                    </ul>
+                </div> <!-- end section-footer__social -->
+
+                <div class="column xl-10 md-12">
+                    <p class="ss-copyright">
+                        <span>Website: Original design by <a href="https://styleshout.com/" style="color: gray;">StyleShout</a>, heavily modified by <a href="https://minalee-research.github.io/index.html" target="_blank" style="color: gray;">Mina Lee </a>, and <span><a href="#0" target="_blank" class="bold-white">Jungmin Mah</a></span> customized to fit her own needs</span>
+                        <span>Image: Created by <a href="https://openai.com/index/hello-gpt-4o/" target="_blank" style="color: gray;">GPT-4o</a></span>
+                    </p>
+                </div>
+
+            </div> <!-- end section-footer__bottom -->
+            
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top">                 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M5.536 21.886a1.004 1.004 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A1 1 0 0 0 5 3v18a1 1 0 0 0 .536.886z"></path></svg>
+                </a>                                
+                <span>Back To Top</span>   
+            </div> <!-- end ss-go-top -->
+            
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end page-wrap -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
