@@ -3055,7 +3055,7 @@ td:last-child {
     height          : var(--header-height);
     width           : 100%;
     position        : absolute;
-    top             : min(var(--vspace-0_75), 4vh);
+    top             : 0;
     left            : 0;
 }
 
@@ -3700,6 +3700,7 @@ td:last-child {
 .no-js .s-header__inner,
 .ss-show .s-header__inner {
     transition-delay: 1.5s;
+    width: 100%
 }
 
 /* ------------------------------------------------------------------- 
