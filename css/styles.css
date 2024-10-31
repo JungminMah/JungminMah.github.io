@@ -3055,7 +3055,7 @@ td:last-child {
     height          : var(--header-height);
     width           : 100%;
     position        : absolute;
-    top             : 0;
+    top             : min(var(--vspace-0_75), 4vh);
     left            : 0;
 }
 
