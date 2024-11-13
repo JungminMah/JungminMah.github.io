@@ -4068,7 +4068,7 @@ td:last-child {
  * ## testimonials
  * ------------------------------------------------------------------- */
 .s-testimonials {
-    padding-top   : var(--vspace-4_5);
+    padding-top   : var(--vspace-1);
     padding-bottom: var(--vspace-4);
 }
 
