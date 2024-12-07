@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Lab Name</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #004080;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .section-title {
+            color: #004080;
+            margin: 20px 0;
+        }
+        .research-card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .research-card img {
+            max-height: 200px;
+            object-fit: cover;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Your Lab Name</h1>
+        <p>Innovating the Future of Biomedical Engineering</p>
+    </div>
+
+    <!-- About Section -->
+    <div class="container mt-5">
+        <h2 class="section-title text-center">About Us</h2>
+        <p>Welcome to [Your Lab Name]. Our team is dedicated to advancing the field of biomedical engineering through innovative research and collaboration. Our mission is to develop cutting-edge solutions that impact healthcare and improve lives.</p>
+    </div>
+
+    <!-- Research Section -->
+    <div class="container mt-5">
+        <h2 class="section-title text-center">Our Research</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card research-card">
+                    <img src="research1.jpg" alt="Research Image" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Title 1</h5>
+                        <p class="card-text">Brief description of the research project. Highlight the goals and significance.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card research-card">
+                    <img src="research2.jpg" alt="Research Image" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Title 2</h5>
+                        <p class="card-text">Brief description of the research project. Highlight the goals and significance.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card research-card">
+                    <img src="research3.jpg" alt="Research Image" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Title 3</h5>
+                        <p class="card-text">Brief description of the research project. Highlight the goals and significance.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 [Your Lab Name]. All rights reserved.</p>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
